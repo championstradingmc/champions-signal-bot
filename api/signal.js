@@ -14,23 +14,23 @@ const STRATEGY_CONFIG = {
     label: "Strategy A",
     emoji_buy: "🟢",
     emoji_sell: "🔴",
-    master_chat_id: "-100XXXXXXXXX1",   // Strategy 464's own channel
+    master_chat_id: "-1003935839699",   // Strategy 464's own channel
   },
   "500": {
     label: "Strategy B",
     emoji_buy: "🟩",
     emoji_sell: "🟥",
-    master_chat_id: "-100XXXXXXXXX2",   // Strategy 500's own channel
+    master_chat_id: "-1004405511675",   // Strategy 500's own channel
   },
   "101": {
     label: "Strategy C",
     emoji_buy: "🔵",
     emoji_sell: "🟠",
-    master_chat_id: "-100XXXXXXXXX3",   // Strategy 101's own channel
+    master_chat_id: "-1004465983581",   // Strategy 101's own channel
   },
 };
 
-const TARGET_CHAT_ID = "-100XXXXXXXXX0"; // the combined channel every signal also goes to
+const TARGET_CHAT_ID = "-1004395242257"; // the combined channel every signal also goes to
 
 // Simple in-memory de-dupe (resets on cold start - fine for catching
 // TradingView's occasional duplicate fires within the same request burst).
